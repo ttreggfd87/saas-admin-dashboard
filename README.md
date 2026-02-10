@@ -15,7 +15,15 @@ A modern, responsive analytics dashboard built with **React**, **Vite**, **Tailw
 *   Recharts
 *   Lucide React (Icons)
 
-## Setup
+## 🐳 Run with Docker
+
+```bash
+# Build and Run (Access at http://localhost:3000)
+docker build -t dashboard .
+docker run -p 3000:80 dashboard
+```
+
+## Setup (Local Node)
 
 1.  **Install Dependencies:**
     ```bash
